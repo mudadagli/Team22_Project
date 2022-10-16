@@ -88,4 +88,44 @@ public class OrhanPage {
 
     @FindBy(xpath = "//button[text()='Sign Up']")
     public WebElement signUpOnayButton;
+
+
+
+
+
+    @FindBy (css = "#username")
+    public WebElement signInUsernameBox;
+
+    @FindBy (css = "#password")
+    public WebElement signInPasswordBox;
+
+    @FindBy (xpath = "//button[@name='login']")
+    public WebElement signInButton;
+
+    @FindBy (xpath = "//*[text()='Sign Out']")
+    public WebElement anaSayfaSignOutLink;
+
+    @FindBy (xpath = "//a[text()='Store Manager']")
+    public WebElement storeManagerLink;
+
+    @FindBy(xpath = "//*[@class='wcfmfa fa-gift']")
+    public WebElement cuponsLink;
+
+    @FindBy(xpath = "//a[text()='C_005']")
+    public WebElement couponCodeC005Link;
+
+    @FindBy(xpath = "//*[text()='Limit']")
+    public WebElement limitText;
+
+    @FindBy(xpath = "//div[@class='page_collapsible collapse-close collapse-open']")
+    public WebElement limitLink;
+
+    @FindBy (css = "#usage_limit")
+    public WebElement usageLimitPerCouponBox;
+
+    @FindBy(css = "#wcfm_coupon_manager_submit_button")
+    public WebElement cuoponManagerSubmitButton;
+
+    @FindBy (xpath = "//*[@id='wcfm_coupons_manage_js-js-extra']")
+    public WebElement successfullyScriptText;
 }
