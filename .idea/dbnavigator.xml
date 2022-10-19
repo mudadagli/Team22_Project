@@ -17,8 +17,13 @@
       <scope value="GLOBAL" />
       <destination value="FILE" />
       <format value="EXCEL" />
+<<<<<<< HEAD
       <charset value="windows-1254" />
       <charset value="windows-1254" />
+=======
+      <charset value="UTF-8" />
+      <charset value="UTF-8" />
+>>>>>>> main
     </export-instructions>
   </component>
   <component name="DBNavigator.Project.DatabaseBrowserManager">
