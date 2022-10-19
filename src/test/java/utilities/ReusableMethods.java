@@ -3,9 +3,11 @@ package utilities;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.interactions.SourceType;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 import java.io.File;
 import java.io.IOException;
@@ -140,6 +142,25 @@ public class ReusableMethods {
             System.out.println(
                     "Timeout waiting for Page Load Request to complete after " + timeout + " seconds");
         }
+    }
+
+    //---------------------------FILE DOWNLOADED CHECK----------------------------//
+
+    public static boolean isFileDownloaded(String filePath,String fileName) throws Exception {
+        final int SLEEP_TIME_MILLIS = 1000;
+        File file = new File(filePath);
+        final int timeout = 60* SLEEP_TIME_MILLIS;
+        int timeElapsed = 0;
+        while (timeElapsed<timeout){
+            if (file.exists()) {
+                System.out.println(fileName + " is present");
+                return true;
+            } else {
+                timeElapsed +=SLEEP_TIME_MILLIS;
+                Thread.sleep(SLEEP_TIME_MILLIS);
+            }
+        }
+        return false;
     }
 }
 
