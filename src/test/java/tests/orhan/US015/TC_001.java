@@ -4,6 +4,9 @@ import io.opentelemetry.sdk.autoconfigure.spi.ConfigProperties;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.OrhanPage;
 import utilities.ConfigReader;
@@ -11,6 +14,7 @@ import utilities.Driver;
 import utilities.ReusableMethods;
 
 import javax.swing.*;
+import java.time.Duration;
 
 public class TC_001 {
     /*
@@ -30,6 +34,9 @@ public class TC_001 {
     OrhanPage orhanPage = new OrhanPage();
 
     Actions actions = new Actions(Driver.getDriver());
+
+    JavascriptExecutor jse = (JavascriptExecutor) Driver.getDriver();
+
     @Test
     public void testUsageLimitPerCoupon(){
 
@@ -46,7 +53,10 @@ public class TC_001 {
 
 
         //4
-        orhanPage.anaSayfaSignOutLink.click();
+        Driver.getDriver().navigate().refresh();
+        ReusableMethods.waitFor(3);
+        jse.executeScript("arguments[0].scrollIntoView(true);",orhanPage.myAccountButton);
+        jse.executeScript("arguments[0].click();",orhanPage.myAccountButton);
 
 
         //5
@@ -60,19 +70,30 @@ public class TC_001 {
 
         //8
         JavascriptExecutor jse = (JavascriptExecutor) Driver.getDriver();
-        jse.executeScript("arguments[0].scrollIntoView(true);",orhanPage.limitLink);
-        ReusableMethods.waitFor(2000);
-        orhanPage.limitText.click();
+        jse.executeScript("arguments[0].scrollIntoView(true);",orhanPage.logOutLink);
+        actions.sendKeys(Keys.DOWN).sendKeys(Keys.DOWN).sendKeys(Keys.DOWN).sendKeys(Keys.DOWN).perform();
+        ReusableMethods.waitForVisibility(orhanPage.limitLink,1000);
+        jse.executeScript("arguments[0].click();",orhanPage.limitLink);
+
 
 
         //9
-        orhanPage.usageLimitPerCouponBox.sendKeys("44");
+        orhanPage.usageLimitPerCouponBox.clear();
+        orhanPage.usageLimitPerCouponBox.sendKeys("36");
 
         //10
-        orhanPage.cuoponManagerSubmitButton.click();
+        jse.executeScript("arguments[0].scrollIntoView(true);",orhanPage.cuoponManagerSubmitButton);
+        ReusableMethods.waitForVisibility(orhanPage.cuoponManagerSubmitButton,1000);
+        jse.executeScript("arguments[0].click();",orhanPage.cuoponManagerSubmitButton);
+
 
         //11
-//        String expectedText ="Coupon Successfully Published.";
-        assert orhanPage.successfullyScriptText.isDisplayed();
+        ReusableMethods.waitForVisibility(orhanPage.successfullyScriptText,1500);
+        String expectedText ="Coupon Successfully Published.";
+        Assert.assertEquals(orhanPage.successfullyScriptText.getText(),expectedText);
+
+
+
+
     }
 }
