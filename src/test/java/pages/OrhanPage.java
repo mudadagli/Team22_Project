@@ -170,7 +170,7 @@ public class OrhanPage {
     @FindBy(css = "a.dt-button:nth-child(3)")
     public WebElement excelButton;
 
-    @FindBy(css = "a.dt-button:nth-child(3)")
+    @FindBy(css = "a.dt-button:nth-child(4)")
     public WebElement csvButton;
 
     @FindBy (xpath = "//*[@class='wcfmfa fa-user-plus']")

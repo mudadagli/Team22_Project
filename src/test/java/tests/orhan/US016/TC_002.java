@@ -66,7 +66,7 @@ public class TC_002 {
 
         //10
         String filePath = "/Users/orhan/Downloads";
-        String pdfDocumentName = "Store Manager - Allover Commerce";
+        String pdfDocumentName = "Store Manager - Allover Commerce.pdf";
         String excelDocumentName = "Store Manager - Allover Commerce.xlsx";
         String csvDocumentName =  "Store Manager - Allover Commerce.csv";
 
