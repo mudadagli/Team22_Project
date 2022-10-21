@@ -29,18 +29,15 @@ public class US012_TC004 extends TestBaseReport {
     //Kutucuklar yeniden doldurulur
     //"""Settings saved successfully"" yazisinin goruntulendigi dogrulanir
 
-
     AlparslanPage alparslanPage;
     JavascriptExecutor jse;
     WebDriverWait wait;
     Faker faker;
     Select select;
-
-
-
     @Test
     public void indirimliUrunlerTanimlanmissaIndirimliUrunleriListeliGörebilmeliyimUS012TestCase003() throws InterruptedException {
-        extentTest = extentReports.createTest("Pozitif Test", "Geçerli kullanıcı adı ve password ile giriş yapıldı");
+        extentTest = extentReports.createTest("Pozitif Test",
+                "Hesap detaylari ve hesap bilgisi test edildi.");
         //https://allovercommerce.com/ sayfasina gidilir
         Driver.getDriver().get(ConfigReader.getProperty("url"));
         extentTest.info("allovercommerce sitesine gidildi");
@@ -55,19 +52,16 @@ public class US012_TC004 extends TestBaseReport {
         alparslanPage.signInPopUpPasswordTextBox.sendKeys("asd123456");
         extentTest.info("Doğru kullanıcı email ve password girildi");
 
-
         //Sıgn In butonuna tıklanır
         alparslanPage.signInPopUpSignInButton.click();
         Thread.sleep(2000);
         extentTest.info("PopUp uzerindeki Ikinci sign in butonuna basıldı");
-
 
         //My Account sayfasi butonuna tiklanir
         jse = (JavascriptExecutor) Driver.getDriver();
         jse.executeScript("arguments[0].scrollIntoView(true);", alparslanPage.afterSignedInMyAccountLink);
         jse.executeScript("arguments[0].click();", alparslanPage.afterSignedInMyAccountLink);
         extentTest.info("My account butonuna tiklandi");
-
 
         //Store Manager tiklanir
         jse.executeScript("arguments[0].scrollIntoView(true);", alparslanPage.myAccountPageStoreManagerButton);
@@ -83,7 +77,7 @@ public class US012_TC004 extends TestBaseReport {
         Assert.assertTrue(alparslanPage.settingsPagestoreEmailTextBox.isDisplayed(), "email bilgisi goruntulenmedi");
         alparslanPage.settingsPagestoreEmailTextBox.clear();
         faker = new Faker();
-        String expectedEmail = faker.internet().emailAddress(); //"fikeka2419@charav.com";
+        String expectedEmail = faker.internet().emailAddress();
         alparslanPage.settingsPagestoreEmailTextBox.sendKeys(expectedEmail);
         Thread.sleep(2000);
         jse.executeScript("arguments[0].click();", alparslanPage.settingPageStoreSaveButton);
@@ -96,15 +90,11 @@ public class US012_TC004 extends TestBaseReport {
         wait.until(ExpectedConditions.visibilityOf(alparslanPage.settingsPagestoreEmailTextBox));
         Assert.assertNotEquals(alparslanPage.settingsPagestoreEmailTextBox.getText(), expectedEmail);
 
-
         //  String actualEmail = alparslanPage.settingsPage_storeEmailTextBox.getText();
         extentTest.info("emailin degistiği dogrulanir");
 
-
         //Ayni sayfada Payment tiklanir
         jse.executeScript("arguments[0].click();", alparslanPage.settingPagePaymentButton);
-
-
         Assert.assertTrue(alparslanPage.settingPagePaymentHesapBilgisi.isDisplayed(), "Hesap bilgisi goruntulenmedi ");
         extentTest.info("Payment tıklandi ve hesap bilgisi test edildi");
 
@@ -114,7 +104,7 @@ public class US012_TC004 extends TestBaseReport {
         select.selectByValue("bank_transfer");
         extentTest.info("Preferred Payment Method sekmesinden Bank Transfer secildi");
 
-        //Kutucuklar yeniden doldurulur
+        //Kutucuklar yeniden doldurulur  ***--> actions class calismadi.
         alparslanPage.settingPagePaymentAccountName.clear();
         alparslanPage.settingPagePaymentAccountName.sendKeys("asdAcc4569");
 
@@ -145,6 +135,6 @@ public class US012_TC004 extends TestBaseReport {
         Assert.assertTrue(alparslanPage.settingPageSettingsSavedSuccessfully_Text.isDisplayed(), "son kapanista Settings saved successfully gozukmedi");
         extentTest.info("Settings saved successfully yazisinin goruntulendigi dogrulandi.");
 
-        // Driver.closeDriver();
+
     }
 }
