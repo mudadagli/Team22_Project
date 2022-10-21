@@ -76,6 +76,7 @@ public class TC_001 {
         jse.executeScript("arguments[0].click();",orhanPage.limitLink);
 
 
+
         //9
         orhanPage.usageLimitPerCouponBox.clear();
         orhanPage.usageLimitPerCouponBox.sendKeys("36");
