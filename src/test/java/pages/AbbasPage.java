@@ -60,6 +60,9 @@ public class AbbasPage {
     @FindBy(xpath = "(//span[@title='Toggle Block'])[2]")
     public WebElement attributescolorArrowButton;
 
+    @FindBy(css="select#attributes_value_1")
+    public WebElement colorSelect;
+
     @FindBy(xpath = "(//span[@class='select2-selection select2-selection--multiple'])[2]")
     public WebElement attributesColor;
 
