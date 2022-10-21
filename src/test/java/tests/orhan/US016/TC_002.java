@@ -66,14 +66,17 @@ public class TC_002 {
 
         //10
         String filePath = "/Users/orhan/Downloads";
-        String pdfDocumentName = "Store Manager - Allover Commerce.pdf";
+        String pdfDocumentName = "Store Manager - Allover Commerce";
         String excelDocumentName = "Store Manager - Allover Commerce.xlsx";
         String csvDocumentName =  "Store Manager - Allover Commerce.csv";
 
-        Assert.assertEquals(filePath, pdfDocumentName);
-        Assert.assertEquals(filePath, excelDocumentName);
-        Assert.assertEquals(filePath, csvDocumentName);
+        ReusableMethods.fileNameWrittenExtensionPDF(filePath,pdfDocumentName);
+        ReusableMethods.fileNameWrittenExtensionEXCEL(filePath, excelDocumentName);
+        ReusableMethods.fileNameWrittenExtensionCSV(filePath, csvDocumentName);
 
 
+//        Assert.assertTrue(fileName.equals(pdfDocumentName), "Downloaded file name is not matching with pdf file name");
+//        Assert.assertTrue(fileName.equals(excelDocumentName), "Downloaded file name is not matching with excel file name");
+//        Assert.assertTrue(fileName.equals(csvDocumentName), "Downloaded file name is not matching with csv file name");
     }
 }
