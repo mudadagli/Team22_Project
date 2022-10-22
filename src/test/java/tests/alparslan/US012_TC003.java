@@ -28,11 +28,11 @@ public class US012_TC003 extends TestBaseReport {
     JavascriptExecutor jse;
     WebDriverWait wait;
 
+
     @Test
     public void indirimliUrunlerTanimlanmissaIndirimliUrunleriListeliGörebilmeliyimUS012TestCase003() throws InterruptedException {
 
-        extentTest=extentReports.createTest("Pozitif Test",
-                "listede Billing Address ve Shipping Address goruntulendigi test edildi");
+        extentTest=extentReports.createTest("Pozitif Test","Geçerli kullanıcı adı ve password ile giriş yapıldı");
 
         //https://allovercommerce.com/ sayfasina gidilir
         Driver.getDriver().get(ConfigReader.getProperty("url"));
@@ -48,10 +48,12 @@ public class US012_TC003 extends TestBaseReport {
         alparslanPage.signInPopUpPasswordTextBox.sendKeys("asd123456");
         extentTest.info("Gecerli kullanıcı email ve password girildi");
 
+
         //Sıgn In butonuna tıklanır
         alparslanPage.signInPopUpSignInButton.click();
         Thread.sleep(2000);
         extentTest.info("PopUp uzerindeki Ikinci sign in butonuna basıldı");
+
 
         //My Account sayfasi butonuna tiklanir
         jse = (JavascriptExecutor) Driver.getDriver();
@@ -59,10 +61,12 @@ public class US012_TC003 extends TestBaseReport {
         jse.executeScript("arguments[0].click();", alparslanPage.afterSignedInMyAccountLink);
         extentTest.info("My account butonuna tiklandi");
 
+
         //Store Manager tiklanir
         jse.executeScript("arguments[0].scrollIntoView(true);", alparslanPage.myAccountPageStoreManagerButton);
         jse.executeScript("arguments[0].click();", alparslanPage.myAccountPageStoreManagerButton);
         extentTest.info("Store Manager butonuna tiklandi");
+
 
         //Orders tiklanir
         wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(15));
@@ -71,19 +75,22 @@ public class US012_TC003 extends TestBaseReport {
         jse.executeScript("arguments[0].click();", alparslanPage.myAccountPageOrdersButton);
         extentTest.info("Orders butonuna tiklandi");
 
+
         //Acilan listede Billing Address goruntulendigi dogrulanir
+
         for (WebElement each : alparslanPage.ordersPageBillingAdresses){
             Assert.assertTrue(each.isDisplayed(),"Billing Address goruntulenemiyor");
         }
         extentTest.info("Acilan listede Billing Address goruntulendigi test edildi");
 
         //Acilan listede  Shipping Address goruntulendigi dogrulanir
+
         for (WebElement each : alparslanPage.ordersPageShippingAdresses
              ) {
             Assert.assertTrue(each.isDisplayed(),"Shipping Address goruntulenemiyor");
         }
         extentTest.pass("Acilan listede  Shipping Address goruntulendigi");
 
-
+        Driver.closeDriver();
     }
 }
