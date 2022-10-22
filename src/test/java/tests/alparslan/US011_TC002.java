@@ -119,5 +119,6 @@ public class US011_TC002 extends TestBaseReport {
         extentTest.pass("Product Successfully Published. yazisinin goruntulendigi test edildi.");
 
 
+
     }
 }

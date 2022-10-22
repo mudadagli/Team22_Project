@@ -84,9 +84,6 @@ public class US012_TC003 extends TestBaseReport {
         }
         extentTest.pass("Acilan listede  Shipping Address goruntulendigi");
 
-<<<<<<< HEAD
 
-=======
->>>>>>> main
     }
 }

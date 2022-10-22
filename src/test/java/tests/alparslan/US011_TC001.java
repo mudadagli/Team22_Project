@@ -76,11 +76,10 @@ public class US011_TC001 extends TestBaseReport {
         //random bir urune tiklanir
         rnd = new Random();
         int randomSayi = rnd.nextInt(alparslanPage.productsPageproductsList.size());
-<<<<<<< HEAD
+
       // jse.executeScript("arguments[0].scrollIntoView(true);", alparslanPage.productsPage_productsList.get(randomSayi));
-=======
         // jse.executeScript("arguments[0].scrollIntoView(true);", alparslanPage.productsPage_productsList.get(randomSayi));
->>>>>>> main
+
         jse.executeScript("arguments[0].click();", alparslanPage.productsPageproductsList.get(randomSayi));
         extentTest.info("Random bir urun tiklandi");
 
