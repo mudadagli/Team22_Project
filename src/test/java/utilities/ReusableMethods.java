@@ -11,11 +11,17 @@ import org.testng.Assert;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.DirectoryStream;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+
+import static java.lang.Thread.sleep;
 
 public class ReusableMethods {
     //========ScreenShot(Sayfanın resmini alma)=====//
@@ -90,7 +96,7 @@ public class ReusableMethods {
 //   waitFor(5);  => waits for 5 second
     public static void waitFor(int sec) {
         try {
-            Thread.sleep(sec * 1000);
+            sleep(sec * 1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -147,20 +153,69 @@ public class ReusableMethods {
     //---------------------------FILE DOWNLOADED CHECK----------------------------//
 
     public static boolean isFileDownloaded(String filePath,String fileName) throws Exception {
-        final int SLEEP_TIME_MILLIS = 1000;
+        final int SLEEP_TIME_MILLIS = 1;
         File file = new File(filePath);
-        final int timeout = 60* SLEEP_TIME_MILLIS;
+        final int timeout = 10* SLEEP_TIME_MILLIS;
         int timeElapsed = 0;
         while (timeElapsed<timeout){
-            if (file.exists()) {
+            if (file.getName().equals(fileName)) {
                 System.out.println(fileName + " is present");
                 return true;
             } else {
                 timeElapsed +=SLEEP_TIME_MILLIS;
-                Thread.sleep(SLEEP_TIME_MILLIS);
+                sleep(SLEEP_TIME_MILLIS);
             }
         }
         return false;
     }
+
+    public static void fileNameWrittenExtensionPDF(String release,String expectedFileName) {
+        System.out.println(("searching for configuration files in folder " + release));
+        Path releaseFolder = Paths.get(release);
+        try(DirectoryStream<Path> stream = Files.newDirectoryStream(releaseFolder, "*.pdf")) {
+
+            for (Path entry: stream){
+                if (entry.getFileName().toString().contains(expectedFileName)) {
+                  System.out.println(("working on file " + entry.getFileName()));
+                }
+            }
+        }
+        catch (IOException e){
+            System.out.println(("error while retrieving update configuration files " + e.getMessage()));
+        }
+    }
+
+    public static void fileNameWrittenExtensionEXCEL(String release,String expectedFileName) {
+        System.out.println(("searching for configuration files in folder " + release));
+        Path releaseFolder = Paths.get(release);
+        try(DirectoryStream<Path> stream = Files.newDirectoryStream(releaseFolder, "*.xlsx")) {
+
+            for (Path entry: stream){
+                if (entry.getFileName().toString().contains(expectedFileName)) {
+                    System.out.println(("working on file " + entry.getFileName()));
+                }
+            }
+        }
+        catch (IOException e){
+            System.out.println(("error while retrieving update configuration files " + e.getMessage()));
+        }
+    }
+
+    public static void fileNameWrittenExtensionCSV(String release,String expectedFileName) {
+        System.out.println(("searching for configuration files in folder " + release));
+        Path releaseFolder = Paths.get(release);
+        try(DirectoryStream<Path> stream = Files.newDirectoryStream(releaseFolder, "*.csv")) {
+
+            for (Path entry: stream){
+                if (entry.getFileName().toString().contains(expectedFileName)) {
+                    System.out.println(("working on file " + entry.getFileName()));
+                }
+            }
+        }
+        catch (IOException e){
+            System.out.println(("error while retrieving update configuration files " + e.getMessage()));
+        }
+    }
+
 }
 
