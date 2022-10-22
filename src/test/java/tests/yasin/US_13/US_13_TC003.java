@@ -70,16 +70,18 @@ public class US_13_TC003 {
 
        Select select=new Select(yasinPage.discountType);
        List<WebElement> discount=select.getOptions();
-       // System.out.println(discount.size());
-       // int expectedSize=2;
-       // int actualSize=discount.size();
-       // Assert.assertEquals(expectedSize,actualSize);
+
+       /*
+       System.out.println(discount.size());
+       int expectedSize=2;
+       int actualSize=discount.size();
+       Assert.assertEquals(expectedSize,actualSize);
+        */
 
         //Assert.assertTrue(select.getFirstSelectedOption().isEnabled());
 
         //for (WebElement w:discount) {
         //    Assert.assertTrue(w.isEnabled());
-        //
         //}
         discount.stream().forEach(t->Assert.assertTrue(t.isEnabled()));
 
