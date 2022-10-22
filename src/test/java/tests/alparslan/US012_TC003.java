@@ -79,11 +79,14 @@ public class US012_TC003 extends TestBaseReport {
 
         //Acilan listede  Shipping Address goruntulendigi dogrulanir
         for (WebElement each : alparslanPage.ordersPageShippingAdresses
-             ) {
+        ) {
             Assert.assertTrue(each.isDisplayed(),"Shipping Address goruntulenemiyor");
         }
         extentTest.pass("Acilan listede  Shipping Address goruntulendigi");
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
     }
 }

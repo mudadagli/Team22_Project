@@ -70,10 +70,14 @@ public class US012_TC001 extends TestBaseReport {
         for (int i = 0; i < alparslanPage.ordersPageordersList.size(); i++) {
             if (i < alparslanPage.ordersPageordersList.size() - 1) {
                 Assert.assertTrue(Integer.valueOf(alparslanPage.ordersPageordersList.get(i + 1).getText().replaceAll("\\D", ""))
+<<<<<<< HEAD
                         < Integer.valueOf(alparslanPage.ordersPageordersList.get(i).getText().replaceAll("\\D", "")),
+=======
+                                < Integer.valueOf(alparslanPage.ordersPageordersList.get(i).getText().replaceAll("\\D", "")),
+>>>>>>> main
                         "Siparisler sirali degil");
             } else break;
-                 }
+        }
         extentTest.pass("siparislerin sırali oldugu test edildi.");
 
     }
