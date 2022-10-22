@@ -43,5 +43,9 @@ public class TC01 extends TestBaseReport {
         extentTest.info("Fatura adres sayfasina girildigi dogrulandi");
 
 
+
+
+
+
     }
 }
