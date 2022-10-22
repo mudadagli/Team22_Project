@@ -98,6 +98,10 @@ public class US012_TC002 extends TestBaseReport {
 
         Assert.assertTrue(purchasedItems.contains(indirimliUrun), "indirimli ürün görüntülenemedi");
         extentTest.pass("Indirimli urun oldugu test edildi");
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 
     }
 }
