@@ -9,6 +9,18 @@ import utilities.Driver;
 
 public class US_14_TC002 {
 
+    //Belirtilen URL' e gidilir
+    //Sign In butonuna tiklanir
+    //Kullanici bilgileri girilir
+    //My Account a tiklanir
+    //Store Manager a tiklanir
+    //Coupons basligina tiklanir
+    //Add New butonuna  tiklanir
+    //Code kutusuna miktar yazilir
+    //Minimum spend kutusuna miktar girilebildiği test edilir
+    //Maximum spend kutusuna miktar girilebildiği test edilir
+
+
     @Test
     public void uS_14_TC002() throws InterruptedException {
 
@@ -42,8 +54,16 @@ public class US_14_TC002 {
         //Add New butonuna  tiklanir
         executor.executeScript("arguments[0].click();",yasinPage.addNewButonu);
 
-        //Code kutusuna kod girilebildigi test edilir
+        //Code kutusuna miktar yazilir
         executor.executeScript("arguments[0].click();",yasinPage.codeBox);
+
+        //Minimum spend kutusuna miktar girilir
+        yasinPage.minimumSpendBox.sendKeys("1");
+        Assert.assertTrue(yasinPage.minimumSpendBox.isEnabled());
+
+        //Maximum spend kutusuna miktar girilebildiği test edilir
+        yasinPage.maximumSpendBox.sendKeys("99");
+        Assert.assertTrue(yasinPage.maximumSpendBox.isEnabled());
 
 
 

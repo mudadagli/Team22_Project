@@ -78,8 +78,8 @@ public class US_13_TC004 {
         executor.executeScript("arguments[0].click();",yasinPage.couponAmountBox);
         yasinPage.couponAmountBox.clear();
         yasinPage.couponAmountBox.sendKeys("35");
-        //System.out.println(yasinPage.couponAmountBox.getText().toString());
 
+        /* System.out.println(yasinPage.couponAmountBox.getText().toString()); */
         try {
             ReusableMethods.getScreenshot("couponEmauntBox");
         } catch (IOException e) {
