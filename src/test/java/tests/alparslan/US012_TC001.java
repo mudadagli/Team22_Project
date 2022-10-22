@@ -27,7 +27,7 @@ public class US012_TC001 extends TestBaseReport {
     @Test
     public void SManagerOlarakHesabımaGidinceTumPortalaAccessEldeEtmeliyimUS012TestCase02Test() throws InterruptedException {
 
-        extentTest=extentReports.createTest("Pozitif Test","Geçerli kullanıcı adı ve password ile giriş yapıldı");
+        extentTest=extentReports.createTest("Pozitif Test","siparislerin sirali oldugu test edildi");
         //https://allovercommerce.com/ sayfasina gidilir
         Driver.getDriver().get(ConfigReader.getProperty("url"));
         extentTest.info("allovercommerce sitesine gidildi");
@@ -70,11 +70,11 @@ public class US012_TC001 extends TestBaseReport {
         for (int i = 0; i < alparslanPage.ordersPageordersList.size(); i++) {
             if (i < alparslanPage.ordersPageordersList.size() - 1) {
                 Assert.assertTrue(Integer.valueOf(alparslanPage.ordersPageordersList.get(i + 1).getText().replaceAll("\\D", ""))
-                        < Integer.valueOf(alparslanPage.ordersPageordersList.get(i).getText().replaceAll("\\D", "")));
+                        < Integer.valueOf(alparslanPage.ordersPageordersList.get(i).getText().replaceAll("\\D", "")),
+                        "Siparisler sirali degil");
             } else break;
                  }
         extentTest.pass("siparislerin sırali oldugu test edildi.");
 
-        Driver.closeDriver();
     }
 }
