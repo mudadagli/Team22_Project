@@ -22,7 +22,7 @@ public class US011_TC001 extends TestBaseReport {
     @Test
     public void toptanUrunGostermeUs011TestCase001Test() throws InterruptedException {
 
-        extentTest=extentReports.createTest("Pozitif Test","Geçerli kullanıcı adı ve password ile giriş yapıldı");
+        extentTest=extentReports.createTest("Pozitif Test","Satista olan random bir urunun Piece Type, Units Per Piece ve Min Order Quantity ozelliklerinin gorunurlugu test edildi");
 
         //https://allovercommerce.com/ Url'e gidilir
         Driver.getDriver().get(ConfigReader.getProperty("url"));
@@ -33,7 +33,6 @@ public class US011_TC001 extends TestBaseReport {
         alparslanPage.homePageSignInButton.click();
         extentTest.info("sign in butonuna basıldı");
 
-
         //kullanici adi ve sifre girilir
         alparslanPage.signInPopUpUsernameTextBox.sendKeys("fikeka2419@charav.com");
         alparslanPage.signInPopUpPasswordTextBox.sendKeys("asd123456");
@@ -43,7 +42,6 @@ public class US011_TC001 extends TestBaseReport {
         alparslanPage.signInPopUpSignInButton.click();
         Thread.sleep(2000);
         extentTest.info("PopUp uzerindeki Ikinci sign in butonuna basıldı");
-
 
         //My Account butonuna tiklanir
         jse = (JavascriptExecutor) Driver.getDriver();
@@ -64,7 +62,7 @@ public class US011_TC001 extends TestBaseReport {
         //random bir urune tiklanir
         rnd = new Random();
         int randomSayi = rnd.nextInt(alparslanPage.productsPageproductsList.size());
-      //  jse.executeScript("arguments[0].scrollIntoView(true);", alparslanPage.productsPage_productsList.get(randomSayi));
+        // jse.executeScript("arguments[0].scrollIntoView(true);", alparslanPage.productsPage_productsList.get(randomSayi));
         jse.executeScript("arguments[0].click();", alparslanPage.productsPageproductsList.get(randomSayi));
         extentTest.info("Random bir urun tiklandi");
 
@@ -82,10 +80,9 @@ public class US011_TC001 extends TestBaseReport {
 
         //Min Order Quantity? goruntulendigini test edin
         Assert.assertTrue(alparslanPage.topUrunGayarlarMinOrderQuantity.isDisplayed(),
-                "ToptanUrunGostermeAyarlarinda Min Order Quantity? dogrulanamadi");
+                "ToptanUrunGostermeAyarlarinda Min Order Quantity dogrulanamadi");
         extentTest.pass("Min Order Quantity'nin goruntulendigi test edildi ");
 
 
-       // Driver.closeDriver();
     }
 }
