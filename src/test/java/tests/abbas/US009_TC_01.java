@@ -41,21 +41,21 @@ public class US009_TC_01 {
 
         abbasPage.storeManager.click();
 
-       executor.executeScript("arguments[0].click();",abbasPage.products);//products'a tikladik
+         executor.executeScript("arguments[0].click();",abbasPage.products);//products'a tikladik
 
-       executor.executeScript("arguments[0].scrollIntoView(true);",abbasPage.addNewButton);// sayfayi add new gorunene kadar asagi kaydirdik
+         executor.executeScript("arguments[0].scrollIntoView(true);",abbasPage.addNewButton);// sayfayi add new gorunene kadar asagi kaydirdik
 
-        abbasPage.addNewButton.click();
+         abbasPage.addNewButton.click();
 
-        Assert.assertTrue(abbasPage.addProductText.isDisplayed());
+         Assert.assertTrue(abbasPage.addProductText.isDisplayed());
 
 
 
-        executor.executeScript("arguments[0].scrollIntoView(true)",abbasPage.shippingButtonTable);
+         executor.executeScript("arguments[0].scrollIntoView(true)",abbasPage.shippingButtonTable);
 
-        Thread.sleep(3000);
+         Thread.sleep(3000);
 
-        abbasPage.shippingButton.click();
+         abbasPage.shippingButton.click();
 
 
         abbasPage.weightBox.sendKeys("19");

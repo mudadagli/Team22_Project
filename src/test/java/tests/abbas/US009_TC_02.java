@@ -56,15 +56,15 @@ public class US009_TC_02 {
 
         Thread.sleep(3000);
 
-     abbasPage.shippingButton.click();
-     abbasPage.weightBox.sendKeys("19");
+        abbasPage.shippingButton.click();
+        abbasPage.weightBox.sendKeys("19");
 
 
-     actions.sendKeys(Keys.TAB).sendKeys("30").
+        actions.sendKeys(Keys.TAB).sendKeys("30").
              sendKeys(Keys.TAB).sendKeys("40").
              sendKeys(Keys.TAB).sendKeys("50").perform();
        //sendKeys(Keys.TAB).sendKeys(Keys.TAB).
-            // sendKeys(Keys.ARROW_RIGHT).build().perform();
+        // sendKeys(Keys.ARROW_RIGHT).build().perform();
 
         Select select=new Select(abbasPage.shippingTimeSelectList);
         List<WebElement> shipping=select.getOptions();
@@ -73,11 +73,11 @@ public class US009_TC_02 {
         shipping.stream().forEach(t-> System.out.println(t.getText()));
         shipping.stream().forEach(t->Assert.assertTrue(t.isEnabled()));
 
-     Thread.sleep(3000);
+         Thread.sleep(3000);
 
-     ReusableMethods.getScreenshot("US-009-TC002");
+        ReusableMethods.getScreenshot("US-009-TC002");
 
-     //github ilk gonderim
+         //github ilk gonderim
 
     }
 }

@@ -63,12 +63,12 @@ public class US010_TC_01 {
         List<WebElement> colors=select.getOptions();
         colors.stream().forEach(t->t.click());//tum renkleri sectirdik
         colors.stream().forEach(t->Assert.assertTrue(t.isSelected()));//tum renklerin secili oldugunu test ettirdik
-       // abbasPage.attributesColor.click();//color dan renk secildi
-      //  actions.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ARROW_RIGHT).build().perform();
+         // abbasPage.attributesColor.click();//color dan renk secildi
+         //  actions.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ARROW_RIGHT).build().perform();
 
 
-        Thread.sleep(2000);
-        ReusableMethods.getScreenshot("US010_TC_01");
+         Thread.sleep(2000);
+         ReusableMethods.getScreenshot("US010_TC_01");
 
 
     }
