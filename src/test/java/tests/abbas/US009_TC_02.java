@@ -69,15 +69,7 @@ public class US009_TC_02 {
         Select select=new Select(abbasPage.shippingTimeSelectList);
         List<WebElement> shipping=select.getOptions();
         System.out.println("shipping.size() = " + shipping.size());
-        // System.out.println(discount.size());
-        // int expectedSize=2;
-        // int actualSize=discount.size();
-        // Assert.assertEquals(expectedSize,actualSize);
-        //Assert.assertTrue(select.getFirstSelectedOption().isEnabled());
-        //for (WebElement w:discount) {
-        //    Assert.assertTrue(w.isEnabled());
-        //
-        //}
+
         shipping.stream().forEach(t-> System.out.println(t.getText()));
         shipping.stream().forEach(t->Assert.assertTrue(t.isEnabled()));
 
