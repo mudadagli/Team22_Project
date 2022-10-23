@@ -33,7 +33,6 @@ public class US010_TC_01 {
         Assert.assertTrue(abbasPage.signInUsernameBox.isDisplayed());//sign in kutucugu gorundu mu
 
         abbasPage.signInUsernameBox.sendKeys("team22.12.10.2022@gmail.com");//acilan kutucuktaki username bolumune isim gonderdik
-
         abbasPage.signInPasswordBox.sendKeys("*Team2215381571?");// yine acilan bolumdeki password kismina sifremizi gonderdik
 
         abbasPage.signInButton.sendKeys(Keys.ENTER);// kutucugun alt kismindaki sign in butonuna tikladik
@@ -50,19 +49,23 @@ public class US010_TC_01 {
 
         abbasPage.addNewButton.click();
 
-        Assert.assertTrue(abbasPage.addProductText.isDisplayed());
-
-
-
+        Assert.assertTrue(abbasPage.addProductText.isDisplayed());//Product segmesinin gorunurlugu kontrol edildi
         executor.executeScript("arguments[0].scrollIntoView(true)",abbasPage.shippingButtonTable);
 
         Thread.sleep(3000);
 
-        abbasPage.attributes.click();
-        abbasPage.attributescolorArrowButton.click();
+        abbasPage.attributes.click();//attributes segmesine tiklandi
+        abbasPage.attributescolorArrowButton.click();// attributes' e tikladiktan sonra color'un alt ok tusuna bailsdi
+
         Thread.sleep(3000);
-        abbasPage.attributesColor.click();
-        actions.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ARROW_RIGHT).build().perform();
+
+        Select select=new Select(abbasPage.colorSelect);
+        List<WebElement> colors=select.getOptions();
+        colors.stream().forEach(t->t.click());//tum renkleri sectirdik
+        colors.stream().forEach(t->Assert.assertTrue(t.isSelected()));//tum renklerin secili oldugunu test ettirdik
+       // abbasPage.attributesColor.click();//color dan renk secildi
+      //  actions.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ARROW_RIGHT).build().perform();
+
 
         Thread.sleep(2000);
         ReusableMethods.getScreenshot("US010_TC_01");
