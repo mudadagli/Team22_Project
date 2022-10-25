@@ -25,6 +25,9 @@ public class AbbasPage {
     @FindBy(xpath = "//p[text()='WELCOME TO ALLOVER COMMERCE...']")
     public WebElement welcomeText;
 
+    @FindBy (xpath = "//a[text()='My Account']")
+    public WebElement myAccountButonu;
+
     @FindBy(xpath = "//span[text()='Sign Out']")
     public WebElement signOut;
 
@@ -69,7 +72,7 @@ public class AbbasPage {
     @FindBy(xpath = "(//span[@title='Toggle Block'])[3]")
     public WebElement attributesSizeArrowButton;
 
-    @FindBy(xpath = "(//span[@class='select2-selection select2-selection--multiple'])[3]")
+    @FindBy(css = "select#attributes_value_2")
     public WebElement attributesSize;
 
 
