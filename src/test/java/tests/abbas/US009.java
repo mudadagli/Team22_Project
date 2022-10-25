@@ -39,7 +39,7 @@ public class US009 extends TestBaseReport {
         @Test
         public void uS009_TC_01() throws InterruptedException, IOException {
 
-        extentTest=extentReports.createTest("Pozitif Test Shipping","Kullanici urun eklerken Shipping segmesinden urunun 3 boyutunu ve kilosunu girebilmeli.");
+        extentTest=extentReports.createTest("Pozitif Test Shipping Urun Olcu ve Kilo Belirleme ","Kullanici urun eklerken Shipping segmesinden urunun 3 boyutunu ve kilosunu girebilmeli.");
 
 
 //      1 - Belirtilen URL'e gidilir

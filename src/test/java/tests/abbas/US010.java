@@ -36,7 +36,7 @@ public class US010 extends TestBaseReport {
 
     public void uS010_TC_01() throws InterruptedException, IOException {
 
-        extentTest=extentReports.createTest("Pozitif Test Shipping Renk Secimi","Açılan pencerede urunun rengi secilebilmeli birden fazla");
+        extentTest=extentReports.createTest("Pozitif Test Shipping Renk ve Boyut Secimi","Açılan pencerede urunun rengi secilebilmeli birden fazla");
 
 
 //      1 - Belirtilen URL'e gidilir
