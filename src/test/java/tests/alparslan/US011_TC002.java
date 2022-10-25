@@ -38,7 +38,7 @@ public class US011_TC002 extends TestBaseReport {
 
     @Test
     public void toptanUrunGostermeUs011TestCase002Test() throws InterruptedException {
-        extentTest = extentReports.createTest("Pozitif Test", "Toptan urun Gosterme bolumu test edildi");
+        extentTest = extentReports.createTest("Pozitif Test", "Satista olan random bir urunun Piece Type, Units Per Piece ve Min Order Quantity ozelliklerinin etkinligi test edildi ");
         //https://allovercommerce.com/ Url'e gidilir
         Driver.getDriver().get(ConfigReader.getProperty("url"));
         extentTest.info("allovercommerce sitesine gidildi");
@@ -82,9 +82,7 @@ public class US011_TC002 extends TestBaseReport {
         extentTest.info("Random bir urun tiklandi");
 
         //Toptan Urun Gosterme sekmesine tiklanir
-        Thread.sleep(2000);
         jse.executeScript("arguments[0].click();", alparslanPage.productsPageTopUrunGostermeAyarlar);
-        Thread.sleep(1000);
         extentTest.info("Toptan Urun Gosterme butonuna tiklandi");
 
         //Piece Type'i Kg secin
@@ -115,9 +113,11 @@ public class US011_TC002 extends TestBaseReport {
         wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(15));
         wait.until(ExpectedConditions.visibilityOf(alparslanPage.topUrunGayarlarProductSuccesfullyPublishedText));
 
+        // ***bilgisayar kaynakli bazen hata veriyor. O yuzden yorumda kod satiri yazildi.
         Assert.assertEquals(alparslanPage.topUrunGayarlarProductSuccesfullyPublishedText.getText(), expectedText);
-        //Assert.assertTrue(alparslanPage.topUrunGayarlar_ProductSuccesfullyPublishedText.isDisplayed());
+        //Assert.assertTrue(alparslanPage.topUrunGayarlarProductSuccesfullyPublishedText.isDisplayed());
         extentTest.pass("Product Successfully Published. yazisinin goruntulendigi test edildi.");
+
 
 
     }

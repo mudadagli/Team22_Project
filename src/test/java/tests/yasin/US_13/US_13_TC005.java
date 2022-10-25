@@ -1,11 +1,18 @@
 package tests.yasin.US_13;
 
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.YasinPage;
 import utilities.ConfigReader;
 import utilities.Driver;
+import utilities.ReusableMethods;
+
+import java.io.IOException;
+import java.util.List;
 
 public class US_13_TC005 {
     @Test
@@ -60,5 +67,34 @@ public class US_13_TC005 {
 
         //Code kutusuna kupon kodu yazilir
         executor.executeScript("arguments[0].click();",yasinPage.codeBox);
+
+        //Description kutusuna tanim yazilir
+        executor.executeScript("arguments[0].click();",yasinPage.codeBox);
+
+        //Discount Type secilir
+        Select select=new Select(yasinPage.discountType);
+        List<WebElement> discount=select.getOptions();
+        discount.stream().forEach(t->Assert.assertTrue(t.isEnabled()));
+
+        //Coupon Amount kutusuna miktar girilir
+        executor.executeScript("arguments[0].click();",yasinPage.couponAmountBox);
+        yasinPage.couponAmountBox.clear();
+        yasinPage.couponAmountBox.sendKeys("35");
+
+        executor.executeScript("arguments[0].scrollIntoView(true);",yasinPage.couponExpiryDateBox);
+        Thread.sleep(2000);
+        //Coupon expiry date kutusuna tarih girilebildigi test edilir
+        Actions actions=new Actions(Driver.getDriver());
+        actions.moveToElement(yasinPage.couponExpiryDateBox).doubleClick().perform();
+        Assert.assertTrue(yasinPage.selectedDay.isEnabled());
+        yasinPage.selectedDay.click();
+        //xecutor.executeScript("arguments[0].click();",yasinPage.couponExpiryDateBox);
+        //yasinPage.couponExpiryDateBox.sendKeys("2022-10-08");
+        //asinPage.onlyDate.click();
+        try {
+            ReusableMethods.getScreenshot("US_13_TC005");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
