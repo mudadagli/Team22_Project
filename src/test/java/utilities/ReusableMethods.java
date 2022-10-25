@@ -6,6 +6,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.interactions.SourceType;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
@@ -215,6 +216,19 @@ public class ReusableMethods {
         catch (IOException e){
             System.out.println(("error while retrieving update configuration files " + e.getMessage()));
         }
+    }
+    public static String  getValueWithJs(String elementId){
+        JavascriptExecutor js=(JavascriptExecutor)Driver.getDriver();
+        String value=js.executeScript("return document.getElementById('"+elementId+"').value").toString();
+        return value;
+    }
+
+    public static void selectObjectMenu(WebElement element){
+        Select select=new Select(element);
+        List<WebElement> colors=select.getOptions();
+        colors.stream().forEach(t->t.click());
+        colors.stream().forEach(t->Assert.assertTrue(t.isSelected()));
+        colors.stream().forEach(t-> System.out.println(t.getText()));
     }
 
 }
