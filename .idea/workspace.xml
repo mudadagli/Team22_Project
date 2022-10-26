@@ -4,252 +4,116 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="84693a72-9bb3-48ac-bcc7-5840a85b188f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aventstack_extentreports_4_0_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_78.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_3_2_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_api_3_2_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_core_3_2_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_3_2_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_httpclient5_3_2_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_javafaker_javafaker_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_mifmif_generex_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_07.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_auto_auto_common_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_auto_service_auto_service_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_auto_service_auto_service_annotations_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_31_0_1_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_netty_netty_reactive_streams_2_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_SparseBitSet_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dk_brics_automaton_automaton_1_11_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_bonigarcia_webdrivermanager_5_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_73_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_73_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_73_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_60_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_73_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_73_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_60_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_73_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_tcnative_classes_2_0_46_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_73_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_classes_epoll_4_1_73_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_classes_kqueue_4_1_73_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_73_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_60_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_kqueue_4_1_73_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_kqueue_osx_x86_64_4_1_60_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_73_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_api_1_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_context_1_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_exporter_logging_1_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_1_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_common_1_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_extension_autoconfigure_1_10_1_alpha.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_extension_autoconfigure_spi_1_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_logs_1_10_1_alpha.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_metrics_1_10_1_alpha.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_trace_1_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_semconv_1_10_1_alpha.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_ous_jtoml_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_5_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_jodah_failsafe_2_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_client5_httpclient5_5_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_core5_httpcore5_5_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_17_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_5_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_5_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_lite_5_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_5_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_asynchttpclient_async_http_client_2_12_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_asynchttpclient_async_http_client_netty_utils_2_12_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_64.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_64.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_brotli_dec_0_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_4_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_4_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chromium_driver_4_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v85_4_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v95_4_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v96_4_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v97_4_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_4_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_4_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_xpi_driver_4_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_http_4_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_4_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_4_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_json_4_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_4_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_4_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_4_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_4_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_android_1_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Team22_Project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="4625fba0-ff4a-40b8-a457-e2f6afc08e7e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_10_2022_12_05__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_10_2022_12_05__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_10_2022_12_13__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_10_2022_12_13__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_10_2022_12_13__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_10_2022_12_13__Changes_1.xml" afterDir="false" />
-=======
-    <list default="true" id="84693a72-9bb3-48ac-bcc7-5840a85b188f" name="Changes" comment="v1">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_aventstack_extentreports_4_0_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_78.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_3_2_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_api_3_2_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_core_3_2_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_3_2_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_httpclient5_3_2_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_javafaker_javafaker_1_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_mifmif_generex_1_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_07.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_auto_auto_common_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_auto_service_auto_service_1_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_auto_service_auto_service_annotations_1_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_31_0_1_jre.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_netty_netty_reactive_streams_2_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_SparseBitSet_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_11_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dk_brics_automaton_automaton_1_11_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_bonigarcia_webdrivermanager_5_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_73_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_73_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_73_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_60_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_73_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_73_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_60_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_73_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_tcnative_classes_2_0_46_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_73_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_classes_epoll_4_1_73_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_classes_kqueue_4_1_73_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_73_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_60_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_kqueue_4_1_73_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_kqueue_osx_x86_64_4_1_60_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_73_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_api_1_10_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_context_1_10_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_exporter_logging_1_10_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_1_10_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_common_1_10_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_extension_autoconfigure_1_10_1_alpha.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_extension_autoconfigure_spi_1_10_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_logs_1_10_1_alpha.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_metrics_1_10_1_alpha.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_trace_1_10_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_semconv_1_10_1_alpha.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_ous_jtoml_2_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_5_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_jodah_failsafe_2_4_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_client5_httpclient5_5_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_core5_httpcore5_5_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_17_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_5_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_5_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_lite_5_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_5_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_asynchttpclient_async_http_client_2_12_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_asynchttpclient_async_http_client_netty_utils_2_12_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_64.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_64.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_brotli_dec_0_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_12_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_4_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_4_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chromium_driver_4_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v85_4_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v95_4_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v96_4_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v97_4_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_4_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_4_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_xpi_driver_4_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_http_4_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_4_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_4_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_json_4_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_4_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_4_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_4_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_4_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_android_1_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-=======
->>>>>>> main
->>>>>>> main
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Team22_Project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/AbbasPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/AbbasPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/AhmetPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/AhmetPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/AlparslanPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/AlparslanPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/AslanPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/AslanPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/EyupPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/EyupPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/OrhanPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/OrhanPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/TarikPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/TarikPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/TulayPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/TulayPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/YasinPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/YasinPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/muhammedPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/muhammedPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/abbas/US009.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/abbas/US009.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/abbas/US010.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/abbas/US010.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ahmet/US003/TC_001.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ahmet/US003/TC_001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ahmet/US003/TC_002.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ahmet/US003/TC_002.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ahmet/US003/TC_003.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ahmet/US003/TC_003.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ahmet/US003/TC_004.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ahmet/US003/TC_004.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ahmet/US003/TC_005.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ahmet/US003/TC_005.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ahmet/US004/TC_001.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ahmet/US004/TC_001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ahmet/US004/TC_002.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ahmet/US004/TC_002.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ahmet/US004/TC_003.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ahmet/US004/TC_003.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ahmet/US004/TC_004.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ahmet/US004/TC_004.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ahmet/US004/TC_005.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ahmet/US004/TC_005.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ahmet/US004/TC_006.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ahmet/US004/TC_006.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ahmet/US004/TC_007.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ahmet/US004/TC_007.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ahmet/US004/TC_008.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ahmet/US004/TC_008.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/alparslan/US011_TC001.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/alparslan/US011_TC002.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/alparslan/US012_TC001.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/alparslan/US012_TC002.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/alparslan/US012_TC003.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/alparslan/US012_TC004.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07/US_007_TC_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07/US_007_TC_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07/US_007_TC_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07/US_007_TC_04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07/US_007_TC_05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07/US_007_TC_06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07/US_007_TC_07.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07_Deneme.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_08/US_008_TC_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_08/US_008_TC_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_08/US_008_TC_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_08/US_008_TC_04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_08_Deneme.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/eyup/US017/TC01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/eyup/US017/TC01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/eyup/US017/TC02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/eyup/US017/TC02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/eyup/US017/TC03.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/eyup/US017/TC03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/eyup/US017/TC04.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/eyup/US017/TC04.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/eyup/US017/TC05.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/eyup/US017/TC05.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/eyup/US018/TC01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/eyup/US018/TC01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/eyup/US018/TC02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/eyup/US018/TC02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/eyup/US018/TC03.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/eyup/US018/TC03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/eyup/US018/TC04.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/eyup/US018/TC04.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/muhammed/US005_001.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/muhammed/US005_001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/muhammed/US005_002.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/muhammed/US005_002.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/muhammed/US005_003.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/muhammed/US005_003.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/muhammed/US005_004.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/muhammed/US005_004.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/muhammed/US005_005.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/muhammed/US005_005.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/muhammed/US006_001.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/muhammed/US006_001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/muhammed/US006_002.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/muhammed/US006_002.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/muhammed/US006_003.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/muhammed/US006_003.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/muhammed/US006_004.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/muhammed/US006_004.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/muhammed/US006_005.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/muhammed/US006_005.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/muhammed/US006_006.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/muhammed/US006_006.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/muhammed/US006_007.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/muhammed/US006_007.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/muhammed/US006_008.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/muhammed/US006_008.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/muhammed/US006_009.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/muhammed/US006_009.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/muhammed/US006_010.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/muhammed/US006_010.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/muhammed/US006_011.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/muhammed/US006_011.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/orhan/US_015.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/orhan/US_015.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/orhan/US_016.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/orhan/US_016.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/tarik/US_019/US_019_TC001.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/tarik/US_019/US_019_TC002.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/tarik/US_020/US_020_TC001.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/tarik/US_020/US_020_TC002.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/tarik/US_021/US_021_TC001.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/tarik/US_021/US_021_TC002.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/tarik/US_021/US_021_TC003.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/tarik/US_021/US_021_TC004.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/tarik/US_021/US_021_TC005.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/tarik/US_021/US_021_TC006.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/tulay/US_001.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/tulay/US_001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/tulay/US_002.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/tulay/US_002.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/yasin/US_13/US_13_TC001.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/yasin/US_13/US_13_TC001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/yasin/US_13/US_13_TC002.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/yasin/US_13/US_13_TC002.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/yasin/US_13/US_13_TC003.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/yasin/US_13/US_13_TC003.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/yasin/US_13/US_13_TC004.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/yasin/US_13/US_13_TC004.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/yasin/US_13/US_13_TC005.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/yasin/US_13/US_13_TC005.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/yasin/US_13/US_13_TC006.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/yasin/US_13/US_13_TC006.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/yasin/US_13/US_13_TC007.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/yasin/US_13/US_13_TC007.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/yasin/US_14/US_14_TC001.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/yasin/US_14/US_14_TC001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/yasin/US_14/US_14_TC002.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/yasin/US_14/US_14_TC002.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/yasin/US_14/US_14_TC003.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/yasin/US_14/US_14_TC003.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/yasin/US_14/US_14_TC004.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/yasin/US_14/US_14_TC004.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/yasin/US_14/US_14_TC005.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/yasin/US_14/US_14_TC005.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ConfigReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/ConfigReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/CrossDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/CrossDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/TestBaseBeforeClassAfterClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/TestBaseBeforeClassAfterClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/TestBaseBeforeMethodAfterMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/TestBaseBeforeMethodAfterMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/TestBaseReport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/TestBaseReport.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -275,13 +139,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="2GCysEscelkmCX8Rx5NDZuQt24d" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -299,7 +156,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
+      <recent name="C:\Users\abbas\IdeaProjects\Team22_Project" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="tests.orhan.US016" />
@@ -314,23 +171,6 @@
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="US005_005" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Team22_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.muhammed.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.muhammed" />
-      <option name="MAIN_CLASS_NAME" value="tests.muhammed.US005_005" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -369,6 +209,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="US_001" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Team22_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.tulay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.tulay" />
+      <option name="MAIN_CLASS_NAME" value="tests.tulay.US_001" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="US_002" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Team22_Project" />
       <extension name="coverage">
@@ -386,18 +243,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_019.isimVeEpostaTesti" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="US_07_KısaKod" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Team22_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.tarik.*" />
+          <option name="PATTERN" value="tests.aslan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.tarik" />
-      <option name="MAIN_CLASS_NAME" value="tests.tarik.US_019" />
-      <option name="METHOD_NAME" value="isimVeEpostaTesti" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="tests.aslan" />
+      <option name="MAIN_CLASS_NAME" value="tests.aslan.US_07_KısaKod" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -408,9 +264,9 @@
       <list>
         <item itemvalue="TestNG.US_002" />
         <item itemvalue="TestNG.US009" />
-        <item itemvalue="TestNG.US005_005" />
+        <item itemvalue="TestNG.US_001" />
+        <item itemvalue="TestNG.US_07_KısaKod" />
         <item itemvalue="TestNG.US006_005" />
-        <item itemvalue="TestNG.US_019.isimVeEpostaTesti" />
       </list>
     </recent_temporary>
   </component>
@@ -471,6 +327,11 @@
           <properties class="java.lang.AssertionError" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/tulay/US_002.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
