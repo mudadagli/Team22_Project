@@ -15,7 +15,7 @@ import utilities.TestBaseReport;
 import java.time.Duration;
 
 public class US006_009 extends TestBaseReport {
-    pages.muhammedPage muhammedPage=new muhammedPage();
+    muhammedPage muhammedPage =new muhammedPage();
 
     Actions actions = new Actions(Driver.getDriver());
     JavascriptExecutor jse = (JavascriptExecutor) Driver.getDriver();
