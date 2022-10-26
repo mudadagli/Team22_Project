@@ -72,9 +72,13 @@ public class US_13_TC005 {
         executor.executeScript("arguments[0].click();",yasinPage.codeBox);
 
         //Discount Type secilir
+
         Select select=new Select(yasinPage.discountType);
         List<WebElement> discount=select.getOptions();
         discount.stream().forEach(t->Assert.assertTrue(t.isEnabled()));
+
+
+
 
         //Coupon Amount kutusuna miktar girilir
         executor.executeScript("arguments[0].click();",yasinPage.couponAmountBox);
@@ -88,7 +92,7 @@ public class US_13_TC005 {
         actions.moveToElement(yasinPage.couponExpiryDateBox).doubleClick().perform();
         Assert.assertTrue(yasinPage.selectedDay.isEnabled());
         yasinPage.selectedDay.click();
-        //xecutor.executeScript("arguments[0].click();",yasinPage.couponExpiryDateBox);
+        //executor.executeScript("arguments[0].click();",yasinPage.couponExpiryDateBox);
         //yasinPage.couponExpiryDateBox.sendKeys("2022-10-08");
         //asinPage.onlyDate.click();
         try {
