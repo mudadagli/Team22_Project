@@ -10,8 +10,5 @@
         <module name="Team22_Project12" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Team22_Project" target="18" />
-    </bytecodeTargetLevel>
   </component>
 </project>
