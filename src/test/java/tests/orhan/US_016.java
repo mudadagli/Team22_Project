@@ -129,6 +129,7 @@ public class US_016 extends TestBaseReport {
         ReusableMethods.fileNameWrittenExtensionEXCEL(filePath, excelDocumentName);
         extentTest.pass("'Store Manager - Allover Commerce.xlsx' dosyasinin indigi dogrulandi");
         ReusableMethods.fileNameWrittenExtensionCSV(filePath, csvDocumentName);
+        ReusableMethods.waitFor(2);
         extentTest.pass("'Store Manager - Allover Commerce.csv' dosyasinin indigi dogrulandi");
 
 

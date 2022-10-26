@@ -18,7 +18,7 @@ import java.time.Duration;
 
 public class US006_001 extends TestBaseReport {
 
-    pages.muhammedPage muhammedPage=new muhammedPage();
+    muhammedPage muhammedPage =new muhammedPage();
 
     Actions actions = new Actions(Driver.getDriver());
     JavascriptExecutor jse = (JavascriptExecutor) Driver.getDriver();
@@ -68,7 +68,9 @@ public class US006_001 extends TestBaseReport {
 
         muhammedPage.categoryNameBox.sendKeys("Besin Takviyesi");
 
-        muhammedPage.addButton.click();
+       // muhammedPage.addButton.click();
+        jse.executeScript("arguments[0].scrollIntoView(true);", muhammedPage.addButton);
+        jse.executeScript("arguments[0].click();", muhammedPage.addButton);
 
         wait.until(ExpectedConditions.alertIsPresent());
 
