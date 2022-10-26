@@ -5,43 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84693a72-9bb3-48ac-bcc7-5840a85b188f" name="Changes" comment="v1">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/AbbasPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/AbbasPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/AlparslanPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/AlparslanPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/AslanPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/AslanPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/EyupPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/EyupPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/OrhanPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/OrhanPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/YasinPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/YasinPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/muhammedPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/muhammedPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/abbas/US009.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/abbas/US009.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/abbas/US010.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/abbas/US010.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/alparslan/US011.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/alparslan/US011.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/alparslan/US012.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/alparslan/US012.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07/US_007_TC_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07/US_007_TC_01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07/US_007_TC_02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07/US_007_TC_02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07/US_007_TC_03.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07/US_007_TC_03.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07/US_007_TC_04.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07/US_007_TC_04.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07/US_007_TC_05.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07/US_007_TC_05.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07/US_007_TC_06.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07/US_007_TC_06.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07/US_007_TC_07.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07/US_007_TC_07.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_08/US_008_TC_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_08/US_008_TC_01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_08/US_008_TC_02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_08/US_008_TC_02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_08/US_008_TC_03.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_08/US_008_TC_03.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_08/US_008_TC_04.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_08/US_008_TC_04.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/eyup/US017/TC02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/eyup/US017/TC02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/eyup/US017/TC03.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/eyup/US017/TC03.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/eyup/US017/TC04.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/eyup/US017/TC04.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/eyup/US017/TC05.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/eyup/US017/TC05.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/eyup/US018/TC01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/eyup/US018/TC01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/eyup/US018/TC02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/eyup/US018/TC02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/eyup/US018/TC03.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/eyup/US018/TC03.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/eyup/US018/TC04.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/eyup/US018/TC04.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/muhammed/US006_001.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/muhammed/US006_001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/yasin/US_13/US_13_TC005.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/yasin/US_13/US_13_TC005.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +31,13 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2GCysEscelkmCX8Rx5NDZuQt24d" />
   <component name="ProjectViewState">
