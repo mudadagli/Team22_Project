@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="84693a72-9bb3-48ac-bcc7-5840a85b188f" name="Changes" comment="v1">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/AbbasPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/AbbasPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/AlparslanPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/AlparslanPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/AslanPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/AslanPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/EyupPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/EyupPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/OrhanPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/OrhanPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/YasinPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/YasinPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/muhammedPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/muhammedPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/abbas/US009.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/abbas/US009.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/abbas/US010.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/abbas/US010.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/alparslan/US011.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/alparslan/US011.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/alparslan/US012.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/alparslan/US012.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07/US_007_TC_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07/US_007_TC_01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07/US_007_TC_02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07/US_007_TC_02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07/US_007_TC_03.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07/US_007_TC_03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07/US_007_TC_04.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07/US_007_TC_04.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07/US_007_TC_05.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07/US_007_TC_05.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07/US_007_TC_06.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07/US_007_TC_06.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07/US_007_TC_07.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07/US_007_TC_07.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_08/US_008_TC_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_08/US_008_TC_01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_08/US_008_TC_02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_08/US_008_TC_02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_08/US_008_TC_03.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_08/US_008_TC_03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_08/US_008_TC_04.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_08/US_008_TC_04.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/eyup/US017/TC02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/eyup/US017/TC02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/eyup/US017/TC03.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/eyup/US017/TC03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/eyup/US017/TC04.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/eyup/US017/TC04.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/eyup/US017/TC05.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/eyup/US017/TC05.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/eyup/US018/TC01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/eyup/US018/TC01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/eyup/US018/TC02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/eyup/US018/TC02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/eyup/US018/TC03.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/eyup/US018/TC03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/eyup/US018/TC04.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/eyup/US018/TC04.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/muhammed/US006_001.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/muhammed/US006_001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/yasin/US_13/US_13_TC005.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/yasin/US_13/US_13_TC005.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GCysEscelkmCX8Rx5NDZuQt24d" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tests.orhan.US016" />
+      <recent name="tests.orhan.US015" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.US006_005">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US006_005" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Team22_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.muhammed.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.muhammed" />
+      <option name="MAIN_CLASS_NAME" value="tests.muhammed.US006_005" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_015.testUsageLimitPerCoupon" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Team22_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.orhan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.orhan.US015" />
+      <option name="MAIN_CLASS_NAME" value="tests.orhan.US_015" />
+      <option name="METHOD_NAME" value="testUsageLimitPerCoupon" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_016" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Team22_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.orhan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.orhan.US016" />
+      <option name="MAIN_CLASS_NAME" value="tests.orhan.US_016" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_016.testKisilerinTumBilgileri" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Team22_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.orhan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.orhan" />
+      <option name="MAIN_CLASS_NAME" value="tests.orhan.US_016" />
+      <option name="METHOD_NAME" value="testKisilerinTumBilgileri" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_019.isimVeEpostaTesti" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Team22_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.tarik.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.tarik" />
+      <option name="MAIN_CLASS_NAME" value="tests.tarik.US_019" />
+      <option name="METHOD_NAME" value="isimVeEpostaTesti" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.US006_005" />
+        <item itemvalue="TestNG.US_019.isimVeEpostaTesti" />
+        <item itemvalue="TestNG.US_016.testKisilerinTumBilgileri" />
+        <item itemvalue="TestNG.US_016" />
+        <item itemvalue="TestNG.US_015.testUsageLimitPerCoupon" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84693a72-9bb3-48ac-bcc7-5840a85b188f" name="Changes" comment="" />
+      <created>1665907064955</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665907064955</updated>
+    </task>
+    <task id="LOCAL-00001" summary="muhammed">
+      <created>1666774613873</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666774613873</updated>
+    </task>
+    <task id="LOCAL-00002" summary="v1">
+      <created>1666774650330</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666774650330</updated>
+    </task>
+    <task id="LOCAL-00003" summary="v1">
+      <created>1666774697485</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666774697485</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="muhammed" />
+    <MESSAGE value="v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.AssertionError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
