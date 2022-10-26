@@ -11,7 +11,7 @@ import utilities.TestBaseReport;
 
 public class US005_005 extends TestBaseReport {
 
-    pages.muhammedPage muhammedPage=new muhammedPage();
+    muhammedPage muhammedPage =new muhammedPage();
 
     Actions actions = new Actions(Driver.getDriver());
 
