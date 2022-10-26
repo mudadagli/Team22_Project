@@ -191,6 +191,9 @@ public class EyupPage {
     @FindBy(xpath = "//*[@id='shipping_first_name']")
     public WebElement shippingfirstnameBox;
 
+    @FindBy (xpath = "//*[@id=\"menu-item-1079\"]/a[text()='My Account']")
+    public WebElement myAccountButton;
+
 
 
 

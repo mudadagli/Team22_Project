@@ -1,12 +1,14 @@
 package tests.eyup.US017;
 
 import com.github.javafaker.Faker;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.EyupPage;
 import utilities.Driver;
+import utilities.ReusableMethods;
 import utilities.TestBaseReport;
 
 public class TC04 extends TestBaseReport {
@@ -31,9 +33,13 @@ public class TC04 extends TestBaseReport {
         eyupPage.signInButton.click();
         extentTest.info("Kullanici bilgileri girildi ve sign in'e tiklandi");
 
-        //Sign Out a tiklanir
-        eyupPage.anaSayfaSignOutLink.click();
-        extentTest.info("Sign outa tiklandi");
+        //My Account a tiklanir.
+        JavascriptExecutor jse = (JavascriptExecutor) Driver.getDriver();
+        Driver.getDriver().navigate().refresh();
+        ReusableMethods.waitFor(3);
+        jse.executeScript("arguments[0].scrollIntoView(true);",eyupPage.myAccountButton);
+        jse.executeScript("arguments[0].click();",eyupPage.myAccountButton);
+        extentTest.info("My acounta tiklandi");
 
         //Kullanici "Adres" butonuna tiklar
         eyupPage.vedorAdresButton.click();

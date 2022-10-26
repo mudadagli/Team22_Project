@@ -1,0 +1,59 @@
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\"\r\n         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\r\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\r\n    <modelVersion>4.0.0</modelVersion>\r\n\r\n    <groupId>org.example</groupId>\r\n    <artifactId>Team22_Project</artifactId>\r\n    <version>1.0-SNAPSHOT</version>\r\n\r\n    <properties>\r\n        <maven.compiler.source>11</maven.compiler.source>\r\n        <maven.compiler.target>11</maven.compiler.target>\r\n    </properties>\r\n    <dependencies>\r\n        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->\r\n        <dependency>\r\n            <groupId>org.seleniumhq.selenium</groupId>\r\n            <artifactId>selenium-java</artifactId>\r\n            <version>4.1.2</version>\r\n        </dependency>\r\n\r\n        <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->\r\n        <dependency>\r\n            <groupId>io.github.bonigarcia</groupId>\r\n            <artifactId>webdrivermanager</artifactId>\r\n            <version>5.1.0</version>\r\n        </dependency>\r\n\r\n        <!-- https://mvnrepository.com/artifact/org.testng/testng -->\r\n        <dependency>\r\n            <groupId>org.testng</groupId>\r\n            <artifactId>testng</artifactId>\r\n            <version>7.5</version>\r\n            <scope>test</scope>\r\n        </dependency>\r\n\r\n        <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->\r\n        <dependency>\r\n            <groupId>com.github.javafaker</groupId>\r\n            <artifactId>javafaker</artifactId>\r\n            <version>1.0.2</version>\r\n        </dependency>\r\n\r\n        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->\r\n        <dependency>\r\n            <groupId>org.apache.poi</groupId>\r\n            <artifactId>poi-ooxml</artifactId>\r\n            <version>5.2.2</version>\r\n        </dependency>\r\n\r\n        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->\r\n        <dependency>\r\n            <groupId>org.apache.poi</groupId>\r\n            <artifactId>poi</artifactId>\r\n            <version>5.2.2</version>\r\n        </dependency>\r\n\r\n        <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->\r\n        <dependency>\r\n            <groupId>com.aventstack</groupId>\r\n            <artifactId>extentreports</artifactId>\r\n            <version>4.0.9</version>\r\n        </dependency>\r\n\r\n        <dependency>\r\n            <groupId>org.apache.logging.log4j</groupId>\r\n            <artifactId>log4j-api</artifactId>\r\n            <version>2.17.2</version>\r\n        </dependency>\r\n\r\n        <dependency>\r\n            <groupId>org.apache.logging.log4j</groupId>\r\n            <artifactId>log4j-core</artifactId>\r\n            <version>2.17.2</version>\r\n        </dependency>\r\n\r\n    </dependencies>\r\n\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pom.xml b/pom.xml
+--- a/pom.xml	(revision 735ce0c6779ca173cdfff1d7983dede8601f35f8)
++++ b/pom.xml	(date 1666800738940)
+@@ -9,8 +9,8 @@
+     <version>1.0-SNAPSHOT</version>
+ 
+     <properties>
+-        <maven.compiler.source>11</maven.compiler.source>
+-        <maven.compiler.target>11</maven.compiler.target>
++        <maven.compiler.source>18</maven.compiler.source>
++        <maven.compiler.target>18</maven.compiler.target>
+     </properties>
+     <dependencies>
+         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"CompilerConfiguration\">\r\n    <annotationProcessing>\r\n      <profile name=\"Maven default annotation processors profile\" enabled=\"true\">\r\n        <sourceOutputDir name=\"target/generated-sources/annotations\" />\r\n        <sourceTestOutputDir name=\"target/generated-test-sources/test-annotations\" />\r\n        <outputRelativeToContentRoot value=\"true\" />\r\n        <module name=\"Team22_Project\" />\r\n      </profile>\r\n    </annotationProcessing>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+--- a/.idea/compiler.xml	(revision 735ce0c6779ca173cdfff1d7983dede8601f35f8)
++++ b/.idea/compiler.xml	(date 1666800786619)
+@@ -7,6 +7,7 @@
+         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+         <outputRelativeToContentRoot value="true" />
+         <module name="Team22_Project" />
++        <module name="Team22_Project12" />
+       </profile>
+     </annotationProcessing>
+   </component>
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\r\n  <component name=\"MavenProjectsManager\">\r\n    <option name=\"originalFiles\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/pom.xml\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_11\" default=\"true\" project-jdk-name=\"11\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 735ce0c6779ca173cdfff1d7983dede8601f35f8)
++++ b/.idea/misc.xml	(date 1666800786588)
+@@ -8,7 +8,7 @@
+       </list>
+     </option>
+   </component>
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_18" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+ </project>
+\ No newline at end of file
