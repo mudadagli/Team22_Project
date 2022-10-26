@@ -1,0 +1,9 @@
+<changelist name="Uncommitted_changes_before_Update_at_26_10_2022_12_05_[Changes]" date="1666775469692" recycled="false" toDelete="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_10_2022_12_05_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 26.10.2022 12:05 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/pages/MuhammedPage.class" />
+    <option name="AFTER_PATH" value="target/test-classes/pages/MuhammedPage.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_10_2022_12_05_[Changes]/MuhammedPage.class" />
+  </binary>
+</changelist>

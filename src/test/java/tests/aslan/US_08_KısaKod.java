@@ -1,38 +1,37 @@
-package tests.aslan.US_08;
+package tests.aslan;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import pages.AslanPage;
 import utilities.Driver;
-
 import utilities.TestBaseReport;
 
-public class US_008_TC_03 extends TestBaseReport {
-     /*
+public class US_08_KısaKod extends TestBaseReport {
 
+/*
     1-)Belirtilen URL' e gidilir https://allovercommerce.com/
     2-)Sıng in botununa tıklanır
     3-)gecerli mail  ve gecerli bir sifre girilir ve SIGN IN butonuna basılır
     4-)Acılan pencerede my count a tiklanilir
     5-)Acilan pencerede store manager butonuna tıklanır
     6_)Acilan pencerede Product butonunda Add New 'e Tıklanır
-    7-)Acılan Add Product ekranın da Manage Stock?  görünür oldugu test ediniz ve seçim
-    8-)Acılan Allow Backorders?   görünür oldugu test ediniz
-    9_)Acılan Allow Backorders?   görünür oldugu test ediniz ve Do not Allow olarak girilebildiği test edilir
-
+    7-)Acılan Add Product ekranın da Manage Stock?  görünür oldugu test ediniz ve seçim butonu tıklanır}
      */
+
 
     AslanPage aslanPage = new AslanPage();
 
     Actions actions = new Actions(Driver.getDriver());
-    JavascriptExecutor jse =(JavascriptExecutor) Driver.getDriver();
+
+    JavascriptExecutor jse = (JavascriptExecutor) Driver.getDriver();
+
 
     @Test
-    public void test03() throws InterruptedException {
+    public void testOrtak08() throws InterruptedException {
+
         extentTest = extentReports.createTest("URL", "Web Otomasyon Raporlama");
         // Belirtilen URL'e gidilir
         Driver.getDriver().get("https://allovercommerce.com/");
@@ -92,13 +91,54 @@ public class US_008_TC_03 extends TestBaseReport {
         Assert.assertTrue(aslanPage.manegeStock.isDisplayed());
         Thread.sleep(2000);
         extentTest.pass("'Manage Stock?' yazısı başarıyla görüldü butonuna tıklandı");
+    }
+
+    @Test(dependsOnMethods = "testOrtak08",priority = 1)
+    public void testTC_01(){
+        //8_)Acılan Stock Qty   görünür oldugu test edinizve stok miktarın (50) girilebildiği test edilir
+
+        //Allow Backorders?  butonuna tıklanir
+        jse.executeScript("arguments[0].scrollIntoView(true);", aslanPage.allowGiris);
+        jse.executeScript("arguments[0].click();", aslanPage.allowGiris);
+        extentTest.pass("'Allow Backorders?' butonuna tıklandı");
+
+        //Stock Qty  yazısının göründüğü test edilir
+        Assert.assertTrue(aslanPage.stockQty.isDisplayed());
+        extentTest.pass("'Stock Qty' yazısı başarıyla görüldü ");
+
+        //Stock Qty herhangi miktar girildği test edilir
+        aslanPage.stockQtyGiris.sendKeys(Keys.CLEAR,"5");
+        extentTest.pass("'Stock Qty' butonuna tıklandı");
+
+    }
+    @Test(dependsOnMethods = "testOrtak08",priority = 2)
+    public void testTC_02(){
+        /*
+        8-)Acılan Allow Backorders?   görünür oldugu test ediniz
+        9-)Allow olarak girilebildiği test edilir
+         */
+
+        //Allow Backorders?  butonuna tıklanir
+        jse.executeScript("arguments[0].scrollIntoView(true);", aslanPage.allowGiris);
+        jse.executeScript("arguments[0].click();", aslanPage.allowGiris);
+        extentTest.pass("'Allow Backorders?' butonuna tıklandı");
+
+        // Allow alrak secim yapılır
+        actions.sendKeys(Keys.PAGE_DOWN).sendKeys(Keys.PAGE_DOWN).sendKeys(Keys.ENTER).perform();
+        extentTest.pass("'Allow ' secimi yapildi");
+        //Allow olarak göründügü test edildi
+        Assert.assertTrue(aslanPage.allowWE.isDisplayed());
+        extentTest.pass("'Allow' görünür oldugu test edildi");
 
 
-        //Allow Backorders?  yazısının göründüğü test edilir
-        Assert.assertTrue(aslanPage.allowBackorders.isDisplayed());
-        Thread.sleep(2000);
-        extentTest.pass("'Allow Backorders?' yazısı başarıyla görüldü");
+    }
+    @Test(dependsOnMethods = "testOrtak08",priority = 3)
+    public void testTC_03(){
+        /*
+        8-)Acılan Allow Backorders?   görünür oldugu test ediniz
+        9_)Acılan Allow Backorders?   görünür oldugu test ediniz ve Do not Allow olarak girilebildiği test edilir
 
+         */
         //Allow Backorders?  butonuna tıklanir
         jse.executeScript("arguments[0].scrollIntoView(true);", aslanPage.allowGiris);
         jse.executeScript("arguments[0].click();", aslanPage.allowGiris);
@@ -113,15 +153,32 @@ public class US_008_TC_03 extends TestBaseReport {
         extentTest.pass("'Do not Allow' görünür oldugu test edildi");
 
 
-        Driver.closeDriver();
-        extentTest.pass(" Sayfa kapatildi");
+    }
+    @Test(dependsOnMethods = "testOrtak08",priority = 4)
+    public void testTC_04() throws InterruptedException {
+        /*
+        8-)Acılan Allow Backorders?   görünür oldugu test ediniz
+        9_)Acılan Allow Backorders?   görünür oldugu test ediniz ve Allow,but notify customer olarak girilebildiği test edilir
 
+         */
 
+        //Allow Backorders?  butonuna tıklanir
+        jse.executeScript("arguments[0].scrollIntoView(true);", aslanPage.allowGiris);
+        jse.executeScript("arguments[0].click();", aslanPage.allowGiris);
+        extentTest.pass("'Allow Backorders?' butonuna tıklandı");
+        Thread.sleep(3000);
 
+        //Allow,but notify customer olarak girilmeli
+        actions.sendKeys(Keys.PAGE_DOWN).sendKeys(Keys.ENTER).perform();
+        extentTest.pass("'Allow,but notify customer' butonuna tıklandı");
+        Thread.sleep(2000);
 
-
+        //Allow,but notify customer olarak göründügü test edildi
+        Assert.assertTrue(aslanPage.allowButWE.isDisplayed());
+        extentTest.pass("'Allow,but notify customer' görünür oldugu test edildi");
 
     }
 
 
 }
+
