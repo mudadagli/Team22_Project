@@ -1,4 +1,4 @@
-package tests.tarik.US_019;
+package tests.tarik;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
@@ -16,28 +16,26 @@ import utilities.TestBaseReport;
 import java.io.IOException;
 import java.time.Duration;
 
-public class US_019_TC001 extends TestBaseReport {
-
-   /*
-   1.  Belirtilen URL'e gidilir
-   2.  Ana sayfanın göründüğü doğrulanır
-   3.  Sing In butonuna tıklanır
-   4.  E-mail ve password girişi yapmak için textbox'ların açıldığı doğrulanır
-   5.  Açılan pencerede ilgili kısımlara geçerli e-mail ve şifre girildikten sonra Sign In butonuna tıklanır
-   6.  Başarıyla giriş yapıldığı doğrulanır
-   7.  Sağ üst taraftaki Sing Out seçeneğine tıklanır
-   8.  Açılan sayfada Store Manager seçeneğine tıklanır
-   9.  Store Manager penceresindeyken Followers sekmesine tıklanır
-   10. İsimlerin ve e-postaların Follower List başlığı altında tanımlandığı doğrulanır
-    */
-
+public class US_019 extends TestBaseReport {
     TarikPage tarikObje = new TarikPage();
     WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(15));
     JavascriptExecutor jse = (JavascriptExecutor) Driver.getDriver();
-
+    Actions actions = new Actions(Driver.getDriver());
 
     @Test
-    public void test01() {
+    public void testEntry19() {
+        /*
+        1.  Belirtilen URL'e gidilir
+        2.  Ana sayfanın göründüğü doğrulanır
+        3.  Sing In butonuna tıklanır
+        4.  E-mail ve password girişi yapmak için textbox'ların açıldığı doğrulanır
+        5.  Açılan pencerede ilgili kısımlara geçerli e-mail ve şifre girildikten sonra Sign In butonuna tıklanır
+        6.  Başarıyla giriş yapıldığı doğrulanır
+        7.  Sağ üst taraftaki Sing Out seçeneğine tıklanır
+        8.  Açılan sayfada Store Manager seçeneğine tıklanır
+        9.  Store Manager penceresindeyken Followers sekmesine tıklanır
+        */
+
         extentTest = extentReports.createTest("Takipçi Testi", "Takipçiler Görüntülenemedi");
 
         //1
@@ -83,11 +81,30 @@ public class US_019_TC001 extends TestBaseReport {
         jse.executeScript("arguments[0].click();", tarikObje.followersLink);
         extentTest.info("Followers sekmesine tıklandı");
 
-        //10
+
+    }
+
+    @Test(dependsOnMethods = "testEntry19", priority = 1)
+    public void isimVeEpostaTesti() {
+        // 10. İsimlerin ve e-postaların Follower List başlığı altında tanımlandığı doğrulanır
         Assert.assertTrue(tarikObje.notDataText.isDisplayed());
         extentTest.info("Takipçiler listelenemedi");
 
-        Actions actions = new Actions(Driver.getDriver());
+        actions.sendKeys(Keys.PAGE_DOWN).perform();
+        wait.until(ExpectedConditions.visibilityOf(tarikObje.takipciListesiEkranGoruntusu));
+        try {
+            ReusableMethods.getScreenshotWebElement("takipciListesi", tarikObje.takipciListesiEkranGoruntusu);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    @Test(dependsOnMethods = "testEntry19", priority = 2)
+    public void actionsBasligiTesti() {
+        // 11. İşlemlerin Actions başlığı altında tanımlandığı doğrulanır
+        Assert.assertTrue(tarikObje.dataTableEmpty.isDisplayed());
+        extentTest.info("Actions başlığı altında işlemler tanımlanamadı");
+
         actions.sendKeys(Keys.PAGE_DOWN).perform();
         wait.until(ExpectedConditions.visibilityOf(tarikObje.takipciListesiEkranGoruntusu));
         try {

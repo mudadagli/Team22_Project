@@ -1,4 +1,4 @@
-package tests.tarik.US_021;
+package tests.tarik;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -12,31 +12,27 @@ import utilities.TestBaseReport;
 
 import java.time.Duration;
 
-public class US_021_TC002 extends TestBaseReport {
-
-
-     /*
-   1.  Belirtilen URL'e gidilir
-   2.  Ana sayfanın görünür olduğu doğrulanır
-   3.  Sign In butonuna tıklanır
-   4.  E-mail ve password girişi yapmak için textbox'ların açıldığı doğrulanır
-   5.  Açılan pencerede ilgili kısımlara geçerli e-mail ve şifre girildikten sonra Sign In butonuna tıklanır
-   6.  Başarıyla giriş yapıldığı doğrulanır
-   7.  Sağ üst taraftaki Sing Out seçeneğine tıklanır
-   8.  Açılan sayfada Store Manager seçeneğine tıklanır
-   9.  Store Manager penceresindeyken Reports sekmesine tıklanır
-   10. Last Month sekmesine tıklanır ve ilgili raporun göründüğü doğrulanır
-     */
-
+public class US_020 extends TestBaseReport {
     TarikPage tarikObje = new TarikPage();
-
     WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(15));
     JavascriptExecutor jse = (JavascriptExecutor) Driver.getDriver();
 
     @Test
-    public void test01() {
-        extentTest = extentReports.createTest("Satış Raporlarının İncelebilmesi Testi",
-                "Bir önceki ayın raporu incelendi");
+    public void testEntry20() throws InterruptedException {
+        /*
+        1. Belirtilen URL'e gidilir
+        2. Ana sayfanın göründüğü doğrulanır
+        3. Sing In butonuna tıklanır
+        4. E-mail ve password girişi yapmak için textbox'ların açıldığı doğrulanır
+        5. Açılan pencerede ilgili kısımlara geçerli e-mail ve şifre girildikten sonra Sign In butonuna tıklanır
+        6. Başarıyla giriş yapıldığı doğrulanır
+        7. Sağ üst taraftaki Sing Out seçeneğine tıklanır
+        8. Açılan sayfada Store Manager seçeneğine tıklanır
+        9. Store Manager penceresindeyken Reviews sekmesine tıklanır
+        10. Açılan ekranda Product Reviews butonuna tıklanır
+        */
+
+        extentTest = extentReports.createTest("Yorumların İncelenebilmesi Testi", "Yorumlar görüntülendi");
 
         //1
         Driver.getDriver().get(ConfigReader.getProperty("url"));
@@ -77,13 +73,28 @@ public class US_021_TC002 extends TestBaseReport {
         extentTest.info("Store Manager bölümüne gidildi");
 
         //9
-        jse.executeScript("arguments[0].scrollIntoView(true);", tarikObje.reportsLink);
-        jse.executeScript("arguments[0].click();", tarikObje.reportsLink);
-        extentTest.info("Reports sekmesine tıklandı");
+        jse.executeScript("arguments[0].scrollIntoView(true);", tarikObje.reviewsLink);
+        jse.executeScript("arguments[0].click();", tarikObje.reviewsLink);
+        extentTest.info("Reviews sekmesine tıklandı");
 
         //10
-        tarikObje.lastMonthLink.click();
-        Assert.assertTrue(tarikObje.rapor.isDisplayed());
-        extentTest.info("Bir önceki ayın raporu incelendi");
+        tarikObje.productReviewsLink.click();
+        extentTest.info("Product Reviews butonuna tıklandı");
+    }
+
+    @Test(dependsOnMethods = "testEntry20", priority = 1)
+    public void kullaniciBilgisiVeYorumIcerigiTesti() {
+        // 11. Author ve Comment sekmelerinin altında kullanıcı bilgisinin ve yorum içeriğinin görüntülendiği doğrulanır
+        Assert.assertTrue(tarikObje.kullaniciBilgisiText.isDisplayed());
+        Assert.assertTrue(tarikObje.yorumIcerigiText.isDisplayed());
+        extentTest.info("Yorumlar ve kullanıcı bilgileri listelendi");
+    }
+
+    @Test(dependsOnMethods = "testEntry20", priority = 2)
+    public void rateVeDateTesti() {
+        // 12. Rating sekmesi altında puanlamanın, Dated sekmesi altında da tarihin görüntülendiği doğrulanır
+        Assert.assertTrue(tarikObje.ratingText.isDisplayed());
+        Assert.assertTrue(tarikObje.datedText.isDisplayed());
+        extentTest.info("Rate oranları ve yorum tarihleri listelendi");
     }
 }
