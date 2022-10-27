@@ -5,19 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4625fba0-ff4a-40b8-a457-e2f6afc08e7e" name="Changes" comment="v1">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_10_2022_12_05__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_10_2022_12_05__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_10_2022_12_13__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_10_2022_12_13__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_10_2022_12_13__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_10_2022_12_13__Changes_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_10_2022_19_26__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_10_2022_19_26__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/alparslan/US011_TC001.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/alparslan/US011_TC002.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/alparslan/US012_TC001.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/alparslan/US012_TC002.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/alparslan/US012_TC003.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/alparslan/US012_TC004.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07_Deneme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_08_Deneme.class" beforeDir="false" />
+
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/tarik/US_019/US_019_TC001.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/tarik/US_019/US_019_TC002.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/tarik/US_020/US_020_TC001.class" beforeDir="false" />
@@ -28,6 +23,7 @@
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/tarik/US_021/US_021_TC004.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/tarik/US_021/US_021_TC005.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/tarik/US_021/US_021_TC006.class" beforeDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +80,7 @@
       <recent name="tests.orhan.US015" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.US014.testExcludeSaleItems">
+
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,72 +110,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US013.testindirimSekliDiscount" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Team22_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.yasin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.yasin" />
-      <option name="MAIN_CLASS_NAME" value="tests.yasin.US013" />
-      <option name="METHOD_NAME" value="testindirimSekliDiscount" />
-      <option name="TEST_OBJECT" value="METHOD" />
+
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US014.testEntry14" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Team22_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.yasin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.yasin" />
-      <option name="MAIN_CLASS_NAME" value="tests.yasin.US014" />
-      <option name="METHOD_NAME" value="testEntry14" />
-      <option name="TEST_OBJECT" value="METHOD" />
+
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US014.testExcludeCategories" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Team22_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.yasin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.yasin" />
-      <option name="MAIN_CLASS_NAME" value="tests.yasin.US014" />
-      <option name="METHOD_NAME" value="testExcludeCategories" />
-      <option name="TEST_OBJECT" value="METHOD" />
+
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US014.testExcludeSaleItems" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Team22_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.yasin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.yasin" />
-      <option name="MAIN_CLASS_NAME" value="tests.yasin.US014" />
-      <option name="METHOD_NAME" value="testExcludeSaleItems" />
-      <option name="TEST_OBJECT" value="METHOD" />
+
       <properties />
       <listeners />
       <method v="2">
@@ -188,11 +140,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.US014.testExcludeSaleItems" />
-        <item itemvalue="TestNG.US014.testEntry14" />
-        <item itemvalue="TestNG.US014.testExcludeCategories" />
-        <item itemvalue="TestNG.US013.testShowOnStore" />
-        <item itemvalue="TestNG.US013.testindirimSekliDiscount" />
+
       </list>
     </recent_temporary>
   </component>
