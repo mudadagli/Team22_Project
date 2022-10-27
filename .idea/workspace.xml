@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4625fba0-ff4a-40b8-a457-e2f6afc08e7e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AhmetPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AhmetPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/AhmetPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/AhmetPage.class" afterDir="false" />
+
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/alparslan/US011_TC001.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/alparslan/US011_TC002.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/alparslan/US012_TC001.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/alparslan/US012_TC002.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/alparslan/US012_TC003.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/alparslan/US012_TC004.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_07_Deneme.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/aslan/US_08_Deneme.class" beforeDir="false" />
+
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/tarik/US_019/US_019_TC001.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/tarik/US_019/US_019_TC002.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/tarik/US_020/US_020_TC001.class" beforeDir="false" />
@@ -26,6 +22,7 @@
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/tarik/US_021/US_021_TC004.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/tarik/US_021/US_021_TC005.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/tarik/US_021/US_021_TC006.class" beforeDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,35 +84,12 @@
       <recent name="tests.orhan.US015" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TC_003_1">
-    <configuration name="TC_003_1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Team22_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.ahmet.US004.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.ahmet.US004" />
-      <option name="MAIN_CLASS_NAME" value="tests.ahmet.US004.TC_003_1" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC_003.test003" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Team22_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.ahmet.US004.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.ahmet.US004" />
-      <option name="MAIN_CLASS_NAME" value="tests.ahmet.US004.TC_003" />
-      <option name="METHOD_NAME" value="test003" />
+
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -123,64 +97,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US009" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Team22_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.abbas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.abbas" />
-      <option name="MAIN_CLASS_NAME" value="tests.abbas.US009" />
-      <option name="TEST_OBJECT" value="CLASS" />
+
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_001" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Team22_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.tulay.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.tulay" />
-      <option name="MAIN_CLASS_NAME" value="tests.tulay.US_001" />
-      <option name="TEST_OBJECT" value="CLASS" />
+
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_002" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Team22_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.tulay.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.tulay" />
-      <option name="MAIN_CLASS_NAME" value="tests.tulay.US_002" />
-      <option name="TEST_OBJECT" value="CLASS" />
+
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="TestNG.TC_003_1" />
-        <item itemvalue="TestNG.TC_003.test003" />
-        <item itemvalue="TestNG.US_002" />
-        <item itemvalue="TestNG.US009" />
-        <item itemvalue="TestNG.US_001" />
+
       </list>
     </recent_temporary>
   </component>
