@@ -144,7 +144,7 @@ public class AhmetPage {
 
     @FindBy(xpath ="(//*[@class='input-text qty text'])[2]")
     public WebElement productQuantityAlani2;
-    @FindBy(xpath ="(//*[@class='product-subtotal'])[2]")
+    @FindBy(xpath ="(//*[@class='woocommerce-Price-amount amount'])[8]")
     public WebElement productSubtotalAlani;
 
     @FindBy(xpath ="(//*[@class='product-subtotal'])[3]")

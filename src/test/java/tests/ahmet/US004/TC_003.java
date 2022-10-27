@@ -46,7 +46,7 @@ public class TC_003 extends TestBaseReport {
         jse.executeScript("arguments[0].scrollIntoView(true);",ahmetPage.goShopButton);
         jse.executeScript("arguments[0].click();", ahmetPage.goShopButton);
         extentTest.info("Acilan sayfada go shop butonuna tıklandı");
-
+        JavascriptExecutor jse = (JavascriptExecutor) Driver.getDriver();
         //Rastgele 5 urun secilir ve sepete eklenir
         for (int i=0 ;i<=4;i++) {
             jse.executeScript("arguments[0].scrollIntoView(true);",ahmetPage.addCart);
@@ -68,28 +68,35 @@ public class TC_003 extends TestBaseReport {
         extentTest.info("view cart'tıklandı");
 
         //Arti butonu ile urun miktari arttirilir
+        String ilkdeger1=ahmetPage.productSubtotalAlani.getText();
         ahmetPage.productplusButton.click();
         Thread.sleep(1000);
         extentTest.info("Arti butonuna tiklandi");
 
         //Update cart'a tiklanir
         jse.executeScript("arguments[0].click();", ahmetPage.updateCartButton);
-        Thread.sleep(4000);
+        Thread.sleep(3000);
         extentTest.info("Update Cart butonuna tiklandi");
-
-        String ilkdeger=ahmetPage.productSubtotalAlani2.getText();
-        ahmetPage.productQuantityAlani2.clear();
         Thread.sleep(1000);
+        String sondeger1=ahmetPage.productSubtotalAlani.getText();
+
+        //Update cart ile rakamin guncellendigi test edilir
+        Assert.assertTrue(sondeger1.contains(ilkdeger1));
+
+        //Stok fazlasi urunun cart 'a eklenemedigi test edilir
+        String ilkdeger2=ahmetPage.productSubtotalAlani2.getText();
+        ahmetPage.productQuantityAlani2.clear();
+        Thread.sleep(2000);
         ahmetPage.productQuantityAlani2.sendKeys("49");
         Thread.sleep(4000);
         jse.executeScript("arguments[0].click();", ahmetPage.updateCartButton);
         Thread.sleep(3000);
         extentTest.info("Update Cart butonuna tiklandi");
 
-        String sondeger=ahmetPage.productSubtotalAlani2.getText();
+        String sondeger2=ahmetPage.productSubtotalAlani2.getText();
 
-        //Stok fazlasi urunun cart 'a eklenemedigi test edilir
-        Assert.assertEquals(sondeger,ilkdeger);
+
+        Assert.assertEquals(sondeger2,ilkdeger2);
         extentTest.pass("Stok fazlasi urunun cart 'a eklenemedigi tespit edildi");
 
     }
